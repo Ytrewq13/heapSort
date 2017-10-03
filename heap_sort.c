@@ -111,11 +111,5 @@ void heap_sort(int *array, int length) {
 int main(int argc, char **argv) {
     srand(time(NULL));
     test_sort();
-    /*int *arr = create_rand_list(ARR_SIZE);
-    *arr = 65;
-    build_max_heap(arr, ARR_SIZE);
-    if (DEBUG) print_array(arr, ARR_SIZE, 0, 0);
-    heap_sort(arr, ARR_SIZE);
-    if (DEBUG) print_array(arr, ARR_SIZE, 0, 1);*/
     return 0;
 }
