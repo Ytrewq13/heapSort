@@ -9,3 +9,6 @@ OBJ := $(patsubst %.c,%.o,$(wildcard *.c))
 a.out: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 	rm $(OBJ)
+
+clean:
+	rm a.out
