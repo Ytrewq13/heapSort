@@ -79,6 +79,7 @@ int is_sorted(int *array, int length) {
 }
 
 void test_sort() {
+    /* This is impressively good testing for me. I surprised myself when I came back to look at my own code. */
     int num_tests = 1000000;
     int i;
     int working = 1;
@@ -110,6 +111,6 @@ void heap_sort(int *array, int length) {
 
 int main(int argc, char **argv) {
     srand(time(NULL));
-    test_sort();
+    test_sort(); /* This is almost like real testing code. */
     return 0;
 }
